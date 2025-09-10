@@ -3,6 +3,10 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /* Almost all flexing will be done in the CONTAINER not the ITEM ITSELF */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
