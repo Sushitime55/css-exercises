@@ -125,6 +125,9 @@ li {
 
 .sidebar {
   grid-area: 2/1/4/2;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 50px;
 }
 
 .nav {
