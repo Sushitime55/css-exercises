@@ -130,6 +130,11 @@ li {
   gap: 50px;
 }
 
+.sidebar > div {
+  display: grid;
+  align-items: center;
+}
+
 .nav {
   grid-area: 2/2/3/3;
   display: grid;
