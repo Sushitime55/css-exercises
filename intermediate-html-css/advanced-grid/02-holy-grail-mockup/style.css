@@ -129,6 +129,13 @@ li {
 
 .nav {
   grid-area: 2/2/3/3;
+  display: grid;
+  align-items: center;
+}
+
+.nav > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .article {
