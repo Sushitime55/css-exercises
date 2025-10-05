@@ -99,8 +99,9 @@ li {
   display: grid;
   gap: 4px;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 2fr 1fr 5fr 1fr;
-  height: 100vh;
+  /* bad to specify rows in this context and having to fix with 100vh */
+  /* grid-template-rows: 2fr 1fr 5fr 1fr; */
+  /* height: 100vh; */
 }
 
 .header {
